@@ -1,0 +1,160 @@
+.template2 {
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 1130px;
+    background-color: #f0f0f0;
+    box-shadow: -2px -2px 15px -2px rgba(0,0,0,0.75);
+    font-family: 'Chivo', sans-serif;
+}
+
+.template2_header {
+    height: 200px;
+    background-color: #003366;
+}
+
+.template2_header:first-child {
+    padding-top: 40px;
+}
+
+.template2 .name {
+    border: 7px solid white;
+    width: 550px;
+    height: 80px;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.template2 .proffesion {
+    border: 4px solid white;
+    width: 400px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    bottom: 30px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.template2_minor>div {
+    width: auto;
+    border-bottom: 2px solid darkgrey;
+    padding-bottom: 10px;
+}
+
+.template2_minor, .template2_main {
+    display: inline-block;
+    height: 840px;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.template2_minor {
+    width: 40%;
+    position: relative;
+    bottom: 55px;
+    margin-top: 55px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.template2 .aboutMe {
+    height: 265px;
+}
+
+.template2 .contact {
+    height: 150px;
+}
+
+.template2 .education {
+    height: 170px;
+}
+
+.template2 .hobby {
+    height: 120px;
+}
+
+.template2_minor h1, .template2_main h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.template2_minor p, .template2_main p {
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.template2_minor h3, .template2_main h3 {
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.template2_minor ul, .template2_main ul {
+    padding-top: 5px;
+    margin-left: 18px;
+}
+
+.template2_minor li, .template2_main li {
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+
+.template2_main {
+    width: 403px;
+    margin-right: 25px;
+    position: relative;
+    bottom: 45px;
+}
+
+.template2 .projects {
+    height: 370px;
+}
+
+.template2 .experience {
+    height: 85px;
+}
+
+.template2 .trainings {
+    height: 100px;
+}
+
+.template2 .skills {
+    height: 120px;
+}
+// border: 0.5px solid red;
+
+.template2_main>div {
+    width: auto;
+    border-bottom: 5px solid darkgrey;
+    padding-bottom: 10px;
+}
+
+.template2_main h5 {
+    font-size: 12px;
+    padding-bottom: 10px;
+    max-width: 400px;
+}
+
+.template2 footer {
+    position: relative;
+    bottom: 55px;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

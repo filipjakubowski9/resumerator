@@ -1,0 +1,192 @@
+.template1 {
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 1130px;
+    background-color: #f2ffef;
+    box-shadow: -2px -2px 15px -2px rgba(0,0,0,0.75);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.template1_header {
+    width: 800px;
+    height: 240px;
+    margin-top: 40px;
+    background-color: #14a9ba;
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+.template1 .name {
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 40px;
+    color: #f2ffef;
+}
+
+.template1 .proffesion {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 40px;
+    color: #303030;
+}
+
+.template1 .aboutMe {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 40px;
+    color: #303030;
+}
+
+.template1_minor {
+    width: 240px;
+    height: 1080px;
+    color: #14a9ba;
+    background-color: #545454;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+.template1_minor .photo {
+    background-image: url('../../../images/background.png');
+    background-size: contain;
+    width: 210px;
+    height: 210px;
+    border-radius: 47.5%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+}
+
+.template1_minor .contact {
+    height: 160px;
+}
+
+.template1_minor .education {
+    height: 180px;
+}
+
+.template1_minor .skills {
+    height: 140px;
+}
+
+.template1_minor .hobby {
+    height: 115px;
+}
+
+.template1_minor .contact, .education, .skills, .hobby {
+    margin: auto;
+    width: 220px;
+    border-bottom: 5px solid grey;
+    padding-bottom: 20px;
+}
+
+.template1_minor h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.template1_minor p {
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #f2ffef;
+    margin-bottom: 8px;
+}
+
+.template1_minor h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.template1_minor li {
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #f2ffef;
+    margin-bottom: 8px;
+    list-style-type: circle;
+}
+
+.template1_main {
+    height: 805px;
+    position: relative;
+    bottom: 820px;
+    margin-left: 300px;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #14a9ba;
+}
+
+.template1_main .projects {
+    height: 400px;
+}
+
+.template1_main .experience {
+    height: 120px;
+}
+
+.template1_main .trainings {
+    height: 120px;
+}
+
+.template1_main .projects, .experience, .trainings {
+    border-bottom: 5px solid grey;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.template1_main h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.template1_main h3 {
+    font-size: 18px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.template1_main h5 {
+    font-size: 12px;
+    color: #303030;
+}
+
+.template1_main ul {
+    margin-top: 15px;
+}
+
+.template1_main li {
+    margin-left: 18px;
+    margin-bottom: 8px;
+    list-style-type: square;
+    color: #303030;
+    font-size: 16px;
+}
+
+.template1_footer {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 830px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
