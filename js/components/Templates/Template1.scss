@@ -69,19 +69,19 @@
 }
 
 .template1_minor .contact {
-    height: 160px;
+    max-height: 160px;
 }
 
 .template1_minor .education {
-    height: 180px;
+    max-height: 180px;
 }
 
 .template1_minor .skills {
-    height: 140px;
+    max-height: 140px;
 }
 
 .template1_minor .hobby {
-    height: 115px;
+    max-height: 115px;
 }
 
 .template1_minor .contact, .education, .skills, .hobby {
@@ -132,15 +132,19 @@
 }
 
 .template1_main .projects {
-    height: 400px;
+    max-height: 400px;
 }
 
 .template1_main .experience {
-    height: 120px;
+    max-height: 120px;
+}
+
+.template1_main .experience p {
+    margin-left: 18px;
 }
 
 .template1_main .trainings {
-    height: 120px;
+    max-height: 120px;
 }
 
 .template1_main .projects, .experience, .trainings {

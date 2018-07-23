@@ -1,0 +1,614 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);@import url(https://fonts.googleapis.com/css?family=Fira+Sans);@import url(https://fonts.googleapis.com/css?family=Chivo);/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Merriweather', serif; }
+.background {
+  width: 1350px;
+  height: 1350px;
+  margin: auto;
+  background-image: url(12b8511b1ccd55d1fa640a2189134aaf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1; }
+
+.card {
+  width: 1350px;
+  height: 485px;
+  margin: auto;
+  position: relative;
+  bottom: 920px;
+  z-index: 2;
+  color: #ff6a00;
+  text-align: center; }
+
+.card h1, h3 {
+  padding: 25px; }
+
+.card h1 {
+  font-size: 75px; }
+
+.card h3 {
+  margin-bottom: 50px;
+  font-size: 40px; }
+
+.card p {
+  margin: 10px;
+  font-size: 25px;
+  color: white; }
+
+.nav {
+  width: 1350px;
+  margin: auto;
+  position: relative;
+  bottom: 275px;
+  right: 375px;
+  z-index: 2; }
+
+.nav button {
+  display: block;
+  width: 200px;
+  height: 60px;
+  margin: 35px;
+  border-radius: 15px;
+  background-color: darkgrey;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  color: black; }
+
+.nav a {
+  text-decoration: none; }
+.form {
+  background-image: url(2ee9034f8c909ea656f307d06d11f563.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto; }
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 160px; }
+
+label {
+  margin: 10px 0 15px 20px;
+  display: inline-block;
+  color: #ff6a00;
+  font-size: 24px; }
+
+input, textarea {
+  height: 30px;
+  margin-top: 5px;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: #282828;
+  font-size: 20px;
+  font-family: 'Jua', sans-serif; }
+
+input {
+  width: 270px; }
+
+textarea {
+  width: 550px;
+  height: 80px; }
+
+.form div:nth-of-type(4) label:last-of-type {
+  margin-left: 0; }
+
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  color: black;
+  position: relative;
+  left: 420px;
+  margin: auto;
+  margin-right: 20px; }
+
+.back {
+  background-image: url(2c7bda73e44808fecab7eaf21fb4d0bc.png);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px; }
+
+::-webkit-input-placeholder {
+  color: #282828;
+  font-family: 'Jua', sans-serif; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #282828;
+  font-family: 'Jua', sans-serif; }
+
+:-ms-input-placeholder {
+  color: #282828;
+  font-family: 'Jua', sans-serif; }
+.template1 {
+  margin: auto;
+  margin-top: 20px;
+  width: 800px;
+  height: 1130px;
+  background-color: #f2ffef;
+  box-shadow: -2px -2px 15px -2px rgba(0, 0, 0, 0.75);
+  font-family: 'Fira Sans', sans-serif; }
+
+.template1_header {
+  width: 800px;
+  height: 240px;
+  margin-top: 40px;
+  background-color: #14a9ba;
+  position: absolute;
+  z-index: 1;
+  display: block; }
+
+.template1 .name {
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 40px;
+  color: #f2ffef; }
+
+.template1 .proffesion {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-right: 40px;
+  color: #303030; }
+
+.template1 .aboutMe {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 40px;
+  color: #303030; }
+
+.template1_minor {
+  width: 240px;
+  height: 1080px;
+  color: #14a9ba;
+  background-color: #545454;
+  margin-left: 20px;
+  position: relative;
+  z-index: 2; }
+
+.template1_minor .photo {
+  background-image: url(12b8511b1ccd55d1fa640a2189134aaf.png);
+  background-size: contain;
+  width: 210px;
+  height: 210px;
+  border-radius: 47.5%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  margin-bottom: 80px; }
+
+.template1_minor .contact {
+  max-height: 160px; }
+
+.template1_minor .education {
+  max-height: 180px; }
+
+.template1_minor .skills {
+  max-height: 140px; }
+
+.template1_minor .hobby {
+  max-height: 115px; }
+
+.template1_minor .contact, .education, .skills, .hobby {
+  margin: auto;
+  width: 220px;
+  border-bottom: 5px solid grey;
+  padding-bottom: 20px; }
+
+.template1_minor h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 2px; }
+
+.template1_minor p {
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #f2ffef;
+  margin-bottom: 8px; }
+
+.template1_minor h3 {
+  font-size: 18px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px; }
+
+.template1_minor li {
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #f2ffef;
+  margin-bottom: 8px;
+  list-style-type: circle; }
+
+.template1_main {
+  height: 805px;
+  position: relative;
+  bottom: 820px;
+  margin-left: 300px;
+  margin-right: 40px;
+  margin-top: 30px;
+  color: #14a9ba; }
+
+.template1_main .projects {
+  max-height: 400px; }
+
+.template1_main .experience {
+  max-height: 120px; }
+
+.template1_main .experience p {
+  margin-left: 18px; }
+
+.template1_main .trainings {
+  max-height: 120px; }
+
+.template1_main .projects, .experience, .trainings {
+  border-bottom: 5px solid grey;
+  padding-bottom: 20px;
+  margin: 0; }
+
+.template1_main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 2px; }
+
+.template1_main h3 {
+  font-size: 18px;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+.template1_main h5 {
+  font-size: 12px;
+  color: #303030; }
+
+.template1_main ul {
+  margin-top: 15px; }
+
+.template1_main li {
+  margin-left: 18px;
+  margin-bottom: 8px;
+  list-style-type: square;
+  color: #303030;
+  font-size: 16px; }
+
+.template1_footer {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 830px;
+  margin-left: 35px;
+  margin-right: 35px; }
+.template2 {
+  margin: auto;
+  padding: 0;
+  margin-top: 20px;
+  width: 800px;
+  height: 1130px;
+  background-color: #f0f0f0;
+  box-shadow: -2px -2px 15px -2px rgba(0, 0, 0, 0.75);
+  font-family: 'Chivo', sans-serif; }
+
+.template2_header {
+  height: 200px;
+  background-color: #003366;
+  padding-top: 40px; }
+
+.template2 .name {
+  border: 7px solid #f0f0f0;
+  width: 550px;
+  height: 80px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center; }
+
+.template2 .proffesion {
+  border: 4px solid #f0f0f0;
+  width: 400px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  bottom: 30px;
+  margin: auto;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1.2px; }
+
+.template2_minor > div {
+  width: auto;
+  border-bottom: 2px solid darkgrey; }
+
+.template2_minor, .template2_main {
+  display: inline-block;
+  height: 720px;
+  padding-left: 0;
+  font-size: 14px; }
+
+.template2_minor {
+  width: 40%;
+  position: relative;
+  margin-top: 55px;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.template2 .aboutMe {
+  max-height: 265px; }
+
+.template2 .contact {
+  max-height: 150px;
+  padding-bottom: 10px; }
+
+.template2 .education {
+  max-height: 170px; }
+
+.template2 .hobby {
+  max-height: 120px; }
+
+.template2_minor h1, .template2_main h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.template2_minor p, .template2_main p,
+.template2_minor li, .template2_main li {
+  line-height: 18px;
+  margin-bottom: 10px; }
+
+.template2_minor h3, .template2_main h3 {
+  padding: 0;
+  font-size: 20px;
+  color: #003366;
+  margin-bottom: 10px; }
+
+.template3_main h5 {
+  padding-bottom: 10px; }
+
+.template2_main {
+  max-height: 840px;
+  width: 403px;
+  margin-right: 25px; }
+
+.template2 .projects {
+  max-height: 370px;
+  max-width: 400px; }
+
+.template2 > div > div {
+  padding: 0; }
+
+.template2 .experience {
+  max-height: 85px;
+  padding-bottom: 20px; }
+
+.template2 .trainings {
+  max-height: 100px; }
+
+.template2 .skills {
+  max-height: 120px; }
+
+.template2_main > div {
+  width: auto;
+  border-bottom: 5px solid darkgrey; }
+
+.template2_main h5 {
+  font-size: 12px;
+  width: 200px; }
+
+.template2 footer {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px; }
+.template3 {
+  margin: auto;
+  margin-top: 20px;
+  width: 800px;
+  height: 1130px;
+  background-color: #fff;
+  box-shadow: -2px -2px 15px -2px rgba(0, 0, 0, 0.75);
+  font-family: 'Chivo', sans-serif; }
+
+.template3_header {
+  width: 800px;
+  height: 240px;
+  background-color: #3f704d;
+  color: #fff; }
+
+.template3 .name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-top: 80px; }
+
+.template3 .proffesion {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold; }
+
+.template3 .contact {
+  float: right;
+  width: 300px;
+  font-size: 16px;
+  position: relative;
+  bottom: 100px;
+  margin-right: 20px; }
+
+.template3 .contact p {
+  margin-bottom: 5px; }
+
+.template3_main {
+  margin: 40px 40px 0 40px; }
+
+.template3_main h1, .template3_minor h1 {
+  border-bottom: 3px solid darkgrey; }
+
+.template3_main p {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.template3 h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.template3 h3 {
+  padding-left: 0;
+  color: #3f704d;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: capitalize; }
+
+.template3 h5 {
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.template3 li {
+  margin-bottom: 20px; }
+
+.template3 .aboutMe {
+  max-height: 140px; }
+
+.template3 .projects {
+  max-height: 500px; }
+
+.template3 .experience {
+  max-height: 250px; }
+
+.template3 .trainings {
+  max-height: 250px; }
+
+.template3 .experience, .trainings {
+  border: none; }
+
+.template3_minor h1 {
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  left: 0; }
+
+.template_minor li {
+  padding-top: 30px; }
+
+.template3_minor div {
+  display: inline-block;
+  width: 220px;
+  height: 145px;
+  margin-right: 30px; }
+
+.template3_minor {
+  margin: 40px 0 0 40px; }
+
+.template3 .skills {
+  position: relative;
+  bottom: 55px; }
+
+.template3 .hobby {
+  position: relative;
+  bottom: 40px; }
+
+.template3 footer {
+  position: relative;
+  bottom: 10px;
+  font-size: 10px; }
+.templates {
+  border: 75px solid #ff6a00;
+  width: 650px;
+  height: 150px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 50px;
+  color: #fff; }
+
+.templates p {
+  margin: 10px;
+  text-align: center; }
+
+.templates a {
+  text-align: center;
+  margin: 25px;
+  font-size: 30px;
+  color: #ff6a00; }

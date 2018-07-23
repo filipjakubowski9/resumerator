@@ -2,17 +2,22 @@
     background-image: url('../../../images/form_background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1350px;
-    height: 1350px;
     margin: auto;
 }
 
-.form div {
-    width: 590px;
-    display: block;
-    position: relative;
-    left: 375px;
-    top: 85px;
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 160px;
+}
+
+.form .form-inline-container {
+    // width: 590px;
+    // display: block;
+    // position: relative;
+    // left: 375px;
+    // top: 85px;
 }
 
 label {
@@ -25,6 +30,7 @@ label {
 input, textarea {
     height: 30px;
     margin-top: 5px;
+    display: block;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: white;
@@ -57,16 +63,21 @@ button {
     font-family: 'Merriweather', serif;
     color: black;
     position: relative;
-    top: 75px;
+    // top: 75px;
     left: 420px;
-    margin-right: 75px;
+    margin: auto;
+    margin-right: 20px;
 }
 
 .back {
     background-image: url('../../../images/arrow-left.png');
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
 }
 
 ::-webkit-input-placeholder {

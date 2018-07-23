@@ -20,13 +20,13 @@ class TemplateNav extends React.Component {
     render() {
         return (
             <div className='templates'>
-                <p> Wybierz szablon </p>
+                <p> Choose a template </p>
                 <div>
-                    <Link to="/template/template1">Templatka 1</Link>
-                    <Link to="/template/template2">Templatka 2</Link>
-                    <Link to="/template/template3">Templatka 3</Link>
+                    <Link to="/template/template1">Template 1</Link>
+                    <Link to="/template/template2">Template 2</Link>
+                    <Link to="/template/template3">Template 3</Link>
                 </div>
-                <Link to='/'> <button className='back'></button> </Link>
+                <Link to='/'> <button className='back'>back</button> </Link>
             </div>
         )
     }
@@ -47,7 +47,9 @@ export default class Template extends React.Component {
 
         db.on("value", (data) => {
             const obj = data.val();
-            const firstKey = Object.keys(data.val())[0]
+            const firstKey = Object.keys(data.val())[Object.keys(data.val()).length - 1]
+
+            console.log(firstKey)
 
             this.setState({
                 data: obj[firstKey]
